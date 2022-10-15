@@ -7,13 +7,14 @@ table{
 }
 
 .icone{
-    width: 20px;
-    height:20px;
+    width: 45px;
+    height: 35px;
 }
 
 .btnExcluir{
    /*background-size: 36px 29px;*/
-    width: 42px;
-    height: 32px;
-    
+    width: 62px;
+    height: 35px;
+    color: black;
+    background-color: red;
    }

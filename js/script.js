@@ -36,8 +36,13 @@ function adicionar() {
         //define uma classe para o botao para podermos achar depois
         btnExcluir.classList = 'btnExcluir';
         //Formatando para inserir uma imagem dentro
-        btnExcluir.innerHTML = '<img class="icone" src="img/removido.png" alt="" >';
-        //atribuido o botao como filho/dependente da coluna/pai 
+
+        btnExcluir.innerText = "Excluir";
+        
+      /*  btnExcluir.innerHTML = '<img class="icone" src="img/removido.png" alt="" >';
+        //atribuido o botao como filho/dependente da coluna/pai */
+
+
         tdExcluir.appendChild(btnExcluir);
 
 
@@ -84,6 +89,7 @@ for (let i = 0; i < itensTabela.length - 1; i++) {
 
 //seleciona a tabela com id clientes
 const tabela = document.querySelector('#clientes');
+
 //adiciona um evento na tabela
 tabela.addEventListener('click', function (event) {
     //grava propriedades do botao selecionado
