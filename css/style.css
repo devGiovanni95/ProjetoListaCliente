@@ -1,0 +1,19 @@
+table, td{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+.icone{
+    width: 20px;
+    height:20px;
+}
+
+.btnExcluir{
+   /*background-size: 36px 29px;*/
+    width: 42px;
+    height: 32px;
+    
+   }
